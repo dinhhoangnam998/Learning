@@ -1,0 +1,17 @@
+.myspin {
+  animation-name: spin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(1440deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
